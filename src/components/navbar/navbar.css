@@ -58,3 +58,29 @@ ul {
 #check:checked ~ ul {
   left: 0%;
 }
+
+@media (max-width: 600px) {
+  nav ul li a {
+    font-size: 65px;
+    padding: 0;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-left: 20px;
+  }
+
+  nav ul li {
+    line-height: 30px;
+  }
+}
+
+@media (max-width: 425px) {
+  nav ul li a {
+    font-size: 40px;
+    padding: 0;
+    margin-left: 10px;
+  }
+
+  nav ul li {
+    line-height: 12px;
+  }
+}

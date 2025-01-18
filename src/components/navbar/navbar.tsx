@@ -22,21 +22,19 @@ function Navbar() {
 
       <ul>
         <li>
-          <a className="active" href="">
-            Home
-          </a>
+          <a href="/home">Home</a>
         </li>
         <li>
-          <a href="">About</a>
+          <a href="/about">About</a>
         </li>
         <li>
-          <a href="#">Proyectos</a>
+          <a href="/proyectos">Proyectos</a>
         </li>
         <li>
-          <a href="#">Desing</a>
+          <a href="/desing">Desing</a>
         </li>
         <li>
-          <a href="#">ForFun</a>
+          <a href="/forfun">ForFun</a>
         </li>
       </ul>
     </nav>
