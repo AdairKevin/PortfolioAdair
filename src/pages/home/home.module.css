@@ -1,0 +1,18 @@
+.he {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.he h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.he h2 {
+  font-size: 2.5rem;
+  margin: 10px 0;
+}
+
+.he h2 span {
+  color: red;
+}
