@@ -29,7 +29,9 @@ function Home() {
           </button>
         </div>
       </div>
-      <div className={styles.contenedor__right}></div>
+      <div className={styles.contenedor__right}>
+        <img src="" alt="" />
+      </div>
     </div>
   );
 }
