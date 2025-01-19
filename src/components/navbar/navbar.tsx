@@ -1,10 +1,10 @@
-import "./navbar.css";
+import styles from "./navbar.module.css";
 
 function Navbar() {
   return (
-    <nav className="navbar">
-      <input type="checkbox" id="check" />
-      <label htmlFor="check" className="checkbtn">
+    <nav className={styles.navbar}>
+      <input type="checkbox" id="check" className={styles.check} />
+      <label htmlFor="check" className={styles.checkbtn}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="35"
@@ -20,21 +20,31 @@ function Navbar() {
         </svg>
       </label>
 
-      <ul>
-        <li>
-          <a href="/home">Home</a>
+      <ul className={styles.ul}>
+        <li className={styles.li}>
+          <a className={styles.a} href="/home">
+            Home
+          </a>
         </li>
-        <li>
-          <a href="/about">About</a>
+        <li className={styles.li}>
+          <a className={styles.a} href="/about">
+            About
+          </a>
         </li>
-        <li>
-          <a href="/proyectos">Proyectos</a>
+        <li className={styles.li}>
+          <a className={styles.a} href="/proyectos">
+            Proyectos
+          </a>
         </li>
-        <li>
-          <a href="/desing">Desing</a>
+        <li className={styles.li}>
+          <a className={styles.a} href="/desing">
+            Desing
+          </a>
         </li>
-        <li>
-          <a href="/forfun">ForFun</a>
+        <li className={styles.li}>
+          <a className={styles.a} href="/forfun">
+            ForFun
+          </a>
         </li>
       </ul>
     </nav>
