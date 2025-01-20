@@ -1,4 +1,5 @@
 import styles from "./navbar.module.css";
+import { NavLink } from "react-router-dom";
 
 function Navbar() {
   return (
@@ -22,29 +23,44 @@ function Navbar() {
 
       <ul className={styles.ul}>
         <li className={styles.li}>
-          <a className={styles.a} href="/home">
+          <NavLink
+            to="/"
+            className={({ isActive }) => (isActive ? styles.active : styles.a)}
+          >
             Home
-          </a>
+          </NavLink>
         </li>
         <li className={styles.li}>
-          <a className={styles.a} href="/about">
+          <NavLink
+            to="/about"
+            className={({ isActive }) => (isActive ? styles.active : styles.a)}
+          >
             About
-          </a>
+          </NavLink>
         </li>
         <li className={styles.li}>
-          <a className={styles.a} href="/proyectos">
+          <NavLink
+            to="/proyectos"
+            className={({ isActive }) => (isActive ? styles.active : styles.a)}
+          >
             Proyectos
-          </a>
+          </NavLink>
         </li>
         <li className={styles.li}>
-          <a className={styles.a} href="/desing">
+          <NavLink
+            to="/desing"
+            className={({ isActive }) => (isActive ? styles.active : styles.a)}
+          >
             Desing
-          </a>
+          </NavLink>
         </li>
         <li className={styles.li}>
-          <a className={styles.a} href="/forfun">
+          <NavLink
+            to="/forfun"
+            className={({ isActive }) => (isActive ? styles.active : styles.a)}
+          >
             ForFun
-          </a>
+          </NavLink>
         </li>
       </ul>
     </nav>

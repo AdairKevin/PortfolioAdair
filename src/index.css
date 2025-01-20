@@ -8,7 +8,13 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #0c0c0c;
+  background-color: #161616;
+  background: linear-gradient(
+    160deg,
+    rgb(0, 0, 0) 0%,
+    rgb(16, 16, 16) 60%,
+    rgb(20, 20, 20) 80%
+  );
   color: #ffffff;
   font-family: "IBM Plex Mono", serif;
   overflow-x: hidden;
