@@ -6,7 +6,7 @@
 }
 
 .centro {
-  width: 45%;
+  width: 41%;
   padding: 20px;
 }
 
@@ -18,13 +18,13 @@
 }
 
 .centro h1 {
-  font-size: 40px;
+  font-size: 30px;
   font-weight: bold;
 }
 
 .disponible {
   display: flex;
-  padding: 8px 14px;
+  padding: 5px 10px;
   border-radius: 10px;
   color: #000000;
   background-color: #00fd4c;
@@ -32,14 +32,14 @@
 }
 
 .centro h2 {
-  font-size: 40px;
+  font-size: 30px;
   font-weight: bold;
   margin: 8px 0;
   color: #ff292d;
 }
 
 .descripcion {
-  font-size: 15px;
+  font-size: 14px;
   margin: 25px 0;
   line-height: 28px;
 
@@ -49,14 +49,15 @@
 }
 
 .boton {
-  font-size: 15px;
-  padding: 15px 35px;
+  font-size: 12px;
+  padding: 12px 35px;
   margin-top: 20px;
   background-color: #ffffff;
   color: #000000;
   text-decoration: none;
   border: none;
   cursor: pointer;
+  border-radius: 5px;
   i {
     margin-left: 10px;
   }
@@ -68,14 +69,15 @@
 }
 
 .acciones {
-  font-size: 15px;
+  font-size: 12px;
   margin-left: 25px;
-  padding: 15px 20px;
+  padding: 12px 20px;
   background-color: #0c0c0c;
   color: #ffffff;
   border: none;
   cursor: pointer;
   border: 1px solid #ffffff;
+  border-radius: 5px;
 }
 
 .acciones:hover {
@@ -88,6 +90,6 @@
 
 .acciones i {
   margin-right: 10px;
-  font-size: 14px;
+  font-size: 12px;
   color: #ffffff;
 }

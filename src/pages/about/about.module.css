@@ -1,37 +1,12 @@
 .container {
   display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
-  height: 100dvh;
-}
-
-.container__left {
-  width: 60%;
-  height: 100dvh;
-}
-
-.container__right {
-  width: 40%;
-  height: 100dvh;
-}
-
-.titulo {
-  font-size: 90px;
-  font-weight: 700;
-  padding: 100px 100px 50px;
-}
-
-.texto {
-  font-size: 18px;
-  padding: 20px 0;
-  font-weight: lighter;
-
-  b {
-    color: #ff0000;
-  }
+  height: auto;
 }
 
 .skills {
-  padding-left: 100px;
   display: flex;
   gap: 25px;
 }
@@ -47,7 +22,7 @@
 }
 
 .i {
-  font-size: 30px;
+  font-size: 20px;
   color: #ffffff;
 }
 
