@@ -8,12 +8,11 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #161616;
   background: linear-gradient(
     180deg,
-    rgb(0, 0, 0) 0%,
-    rgb(10, 10, 10) 60%,
-    rgb(20, 20, 20) 100%
+    rgb(7, 7, 7) 0%,
+    rgb(14, 14, 14) 60%,
+    rgb(21, 21, 21) 100%
   );
   color: #ffffff;
   font-family: "IBM Plex Mono", serif;

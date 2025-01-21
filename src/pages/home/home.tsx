@@ -2,35 +2,50 @@ import styles from "./home.module.css";
 
 function Home() {
   return (
-    <div className={styles.contenedor}>
-      <div className={styles.contenedor__left}>
-        <div className={styles.left}>
-          <h1>Adair Maldonado</h1>
+    <div>
+      <div className={styles.contenedor__centro}>
+        <div className={styles.centro}>
+          <div className={styles.nombre}>
+            <h1>Hola, Soy Adair Maldonado</h1>
+            <div className={styles.disponible}>
+              <p>Disponible pra trabajar</p>
+            </div>
+          </div>
+
           <h2>
             <span>FrontEnd</span> Developer<span>.</span>
           </h2>
-          <button type="button" className={styles.boton}>
-            Leer más →
-          </button>
-          <button className={styles.acciones}>Copiar Email</button>
-          <button className={styles.acciones}>Descargar CV</button>
-        </div>
 
-        <div className={styles.links}>
-          <button className={styles.redes}>
-            <a href="">
-              <i className={"bi bi-github"}></i>
-            </a>
+          <p className={styles.descripcion}>
+            TSU en sistemas informaticos, Animador Digital y entusista UX/UI
+            <span> +1 año de experiencia </span>
+            en desarrollo <span> FrontEnd </span> y{" "}
+            <span> Diseño Grafico </span>, del Estado de México. Me motiva
+            enfrentar desafíos que pongan a prueba mis habilidades mientras
+            contribuyo al crecimiento de los proyectos.
+          </p>
+
+          <button type="button" className={styles.boton}>
+            Leer más
+            <i className={"bi bi-arrow-right"}></i>
           </button>
-          <button className={styles.redes}>
-            <a href="">
-              <i className={"bi bi-linkedin"}></i>
-            </a>
+          <button className={styles.acciones}>
+            <i className={"bi bi-copy"}></i>
+            Copiar Email
+          </button>
+          <button className={styles.acciones}>
+            <i className={"bi bi-download"}></i>
+            Descargar CV
+          </button>
+          <button className={styles.acciones}>
+            <i className={"bi bi-github"}></i>
+            Github
+          </button>
+          <button className={styles.acciones}>
+            <i className={"bi bi-linkedin"}></i>
+            Linkedin
           </button>
         </div>
-      </div>
-      <div className={styles.contenedor__right}>
-        <img src="" alt="" />
       </div>
     </div>
   );

@@ -27,7 +27,7 @@ function Navbar() {
             to="/"
             className={({ isActive }) => (isActive ? styles.active : styles.a)}
           >
-            Home
+            Inicio
           </NavLink>
         </li>
         <li className={styles.li}>
@@ -35,7 +35,7 @@ function Navbar() {
             to="/about"
             className={({ isActive }) => (isActive ? styles.active : styles.a)}
           >
-            About
+            Sobre mi
           </NavLink>
         </li>
         <li className={styles.li}>
@@ -51,7 +51,7 @@ function Navbar() {
             to="/desing"
             className={({ isActive }) => (isActive ? styles.active : styles.a)}
           >
-            Desing
+            Diseño
           </NavLink>
         </li>
         <li className={styles.li}>
@@ -59,7 +59,7 @@ function Navbar() {
             to="/forfun"
             className={({ isActive }) => (isActive ? styles.active : styles.a)}
           >
-            ForFun
+            Por Diversion
           </NavLink>
         </li>
       </ul>
