@@ -10,10 +10,10 @@ body {
   box-sizing: border-box;
   background-color: #161616;
   background: linear-gradient(
-    160deg,
+    180deg,
     rgb(0, 0, 0) 0%,
-    rgb(16, 16, 16) 60%,
-    rgb(20, 20, 20) 80%
+    rgb(10, 10, 10) 60%,
+    rgb(20, 20, 20) 100%
   );
   color: #ffffff;
   font-family: "IBM Plex Mono", serif;
