@@ -8,7 +8,7 @@ function Home() {
           <div className={styles.nombre}>
             <h1>Hola, Soy Adair Maldonado</h1>
             <div className={styles.disponible}>
-              <p>Disponible pra trabajar</p>
+              <p>Disponible para trabajar</p>
             </div>
           </div>
 
