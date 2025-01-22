@@ -1,17 +1,17 @@
 .contenedor__centro {
-  width: 100%;
-  height: 100dvh;
+  position: relative;
   display: flex;
+  align-items: center;
   justify-content: center;
+  margin-top: 200px;
+  z-index: 1;
 }
 
 .centro {
-  width: 41%;
-  padding: 20px;
+  width: 50%;
 }
 
 .nombre {
-  margin-top: 150px;
   display: flex;
   align-items: center;
   gap: 20px;
@@ -39,6 +39,7 @@
 }
 
 .descripcion {
+  width: 100%;
   font-size: 14px;
   margin: 25px 0;
   line-height: 28px;

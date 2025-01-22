@@ -1,9 +1,11 @@
 .container {
+  position: relative;
+  padding: 73px;
+  margin-top: 129px;
+  z-index: 1;
   display: flex;
-  justify-content: center;
   align-items: center;
-  width: 100%;
-  height: auto;
+  justify-content: center;
 }
 
 .skills {

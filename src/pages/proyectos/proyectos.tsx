@@ -1,8 +1,8 @@
-import "./proyectos.css";
+import styles from "./proyectos.module.css";
 
 function Proyectos() {
   return (
-    <div>
+    <div className={styles.container}>
       <p>Proyectos</p>
     </div>
   );

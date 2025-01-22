@@ -23,44 +23,29 @@ function Navbar() {
 
       <ul className={styles.ul}>
         <li className={styles.li}>
-          <NavLink
-            to="/"
-            className={({ isActive }) => (isActive ? styles.active : styles.a)}
-          >
+          <a href="" className={styles.a}>
             Inicio
-          </NavLink>
+          </a>
         </li>
         <li className={styles.li}>
-          <NavLink
-            to="/about"
-            className={({ isActive }) => (isActive ? styles.active : styles.a)}
-          >
-            Sobre mi
-          </NavLink>
-        </li>
-        <li className={styles.li}>
-          <NavLink
-            to="/proyectos"
-            className={({ isActive }) => (isActive ? styles.active : styles.a)}
-          >
+          <a href="" className={styles.a}>
             Proyectos
-          </NavLink>
+          </a>
         </li>
         <li className={styles.li}>
-          <NavLink
-            to="/desing"
-            className={({ isActive }) => (isActive ? styles.active : styles.a)}
-          >
+          <a href="" className={styles.a}>
             Diseño
-          </NavLink>
+          </a>
         </li>
         <li className={styles.li}>
-          <NavLink
-            to="/forfun"
-            className={({ isActive }) => (isActive ? styles.active : styles.a)}
-          >
+          <a href="" className={styles.a}>
             Por Diversion
-          </NavLink>
+          </a>
+        </li>
+        <li className={styles.li}>
+          <a href="" className={styles.a}>
+            Sobre mi
+          </a>
         </li>
       </ul>
     </nav>

@@ -1,22 +1,22 @@
-import { useRoutes } from "react-router-dom";
-import "./App.css";
+import styles from "./App.module.css";
 import Navbar from "./components/navbar/navbar";
-import routes from "./routes/routes";
 import { BrowserRouter as Router } from "react-router-dom";
 import About from "./pages/about/about";
 import Home from "./pages/home/home";
-
-function AppRoutes() {
-  const element = useRoutes(routes); // Renderiza las rutas
-  return element;
-}
+import Proyectos from "./pages/proyectos/proyectos";
+import Desing from "./pages/desing/desing";
+import Forfun from "./pages/forfun/forfun";
 
 function App() {
   return (
-    <Router>
+    <div className={styles.App}>
       <Navbar />
       <Home />
-    </Router>
+      <Proyectos />
+      <Desing />
+      <Forfun />
+      <About />
+    </div>
   );
 }
 

@@ -25,26 +25,28 @@ function Home() {
             contribuyo al crecimiento de los proyectos.
           </p>
 
-          <button type="button" className={styles.boton}>
-            Leer más
-            <i className={"bi bi-arrow-right"}></i>
-          </button>
-          <button className={styles.acciones}>
-            <i className={"bi bi-copy"}></i>
-            Copiar Email
-          </button>
-          <button className={styles.acciones}>
-            <i className={"bi bi-download"}></i>
-            Descargar CV
-          </button>
-          <button className={styles.acciones}>
-            <i className={"bi bi-github"}></i>
-            Github
-          </button>
-          <button className={styles.acciones}>
-            <i className={"bi bi-linkedin"}></i>
-            Linkedin
-          </button>
+          <div className={styles.botones}>
+            <button type="button" className={styles.boton}>
+              Leer más
+              <i className={"bi bi-arrow-right"}></i>
+            </button>
+            <button className={styles.acciones}>
+              <i className={"bi bi-copy"}></i>
+              Copiar Email
+            </button>
+            <button className={styles.acciones}>
+              <i className={"bi bi-download"}></i>
+              Descargar CV
+            </button>
+            <button className={styles.acciones}>
+              <i className={"bi bi-github"}></i>
+              Github
+            </button>
+            <button className={styles.acciones}>
+              <i className={"bi bi-linkedin"}></i>
+              Linkedin
+            </button>
+          </div>
         </div>
       </div>
     </div>

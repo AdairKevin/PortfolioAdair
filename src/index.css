@@ -4,17 +4,16 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  background: linear-gradient(
-    180deg,
-    rgb(7, 7, 7) 0%,
-    rgb(14, 14, 14) 60%,
-    rgb(21, 21, 21) 100%
-  );
+  width: 100%;
+  height: 100dvh;
+
   color: #ffffff;
   font-family: "IBM Plex Mono", serif;
+
   overflow-x: hidden;
 }
