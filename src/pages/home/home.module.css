@@ -24,11 +24,11 @@
 
 .disponible {
   display: flex;
-  padding: 5px 10px;
+  padding: 4px 10px;
   border-radius: 10px;
   color: #000000;
   background-color: #00fd4c;
-  font-size: 12px;
+  font-size: 11px;
 }
 
 .centro h2 {
