@@ -1,10 +1,17 @@
 import styles from "./proyectos.module.css";
+import proyectos from "../../data/proyectos.json";
+import { ProjectCard } from "./cardProyectos";
 
 function Proyectos() {
   return (
-    <div className={styles.container}>
-      <p>Proyectos Aqui iran los proyectos</p>
-    </div>
+    <section className={styles.container} id="projects">
+      <h2 className={styles.title}>Proyectos</h2>
+      <div className={styles.projects}>
+        {proyectos.map((proyectos, id) => {
+          return <ProjectCard key={id} project={proyectos} />;
+        })}
+      </div>
+    </section>
   );
 }
 

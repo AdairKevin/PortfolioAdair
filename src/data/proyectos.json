@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Plataforma Web Angular para Empresa de plasticos",
+    "imageSrc": "images/yo.png",
+    "description": "Platafoma web para la gestion de pedidos y cotizaciones de una empresa de plasticos.",
+    "skills": ["Angular", "PrimeNG", "Html", "Css", "Typescript"],
+    "demo": "",
+    "source": ""
+  },
+  {
+    "title": "Cotizador para Organizador de Eventos",
+    "imageSrc": "images/yo.png",
+    "description": "Platafoma web para la cotizacion de mobiliario y servicios en una empresa dedicada a la organizacion de eventos.",
+    "skills": ["JavaScript", "CSS", "Html"],
+    "demo": "https://cotizadorcolmar.netlify.app/",
+    "source": "https://github.com/AdairKevin/CotizadorCarpas"
+  },
+  {
+    "title": "Api para Cotizador de Eventos",
+    "imageSrc": "images/yo.png",
+    "description": "Api para el cotizador de eventos, desarrollada en NodeJs y Express.",
+    "skills": ["JavaScript", "Node ", "Express"],
+    "demo": "https://apicolmar-production.up.railway.app/api/rentas",
+    "source": "https://github.com/AdairKevin/ApiColmar"
+  }
+]
