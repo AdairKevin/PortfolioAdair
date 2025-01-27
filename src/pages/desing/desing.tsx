@@ -3,7 +3,7 @@ import "./desing.css";
 function Desing() {
   return (
     <div>
-      <p>Desing</p>
+      <h1>Diseño Grafico / Diseño Web </h1>
     </div>
   );
 }
