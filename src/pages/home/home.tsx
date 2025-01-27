@@ -26,9 +26,9 @@ function Home() {
           </p>
 
           <div className={styles.botones}>
-            <button type="button" className={styles.acciones}>
+            <button type="button" className={`${styles.acciones} ${styles.primeraAccion}`}>
               Leer más
-              <i className={"bi bi-arrow-right"}></i>
+              <i id="flecha" className={"bi bi-arrow-right"}></i>
             </button>
             <button className={styles.acciones}>
               <i className={"bi bi-copy"}></i>
