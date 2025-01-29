@@ -7,17 +7,16 @@
 
 .card {
   width: 90px;
-  border-radius: 0.75rem;
+  border-radius: 10px;
   background-size: cover;
   background-position: center;
   cursor: pointer;
   overflow: hidden;
-  border-radius: 2rem;
   margin: 0 10px;
   display: flex;
   align-items: flex-end;
   transition: 0.6s cubic-bezier(0.28, -0.03, 0, 0.99);
-  box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.8);
+  box-shadow: 0px 10px 30px -5px rgba(95, 95, 95, 0.8);
 }
 
 .card > .row {

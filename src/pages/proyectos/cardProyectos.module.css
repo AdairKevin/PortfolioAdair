@@ -8,6 +8,10 @@
   height: 600px;
 }
 
+.container:hover {
+  box-shadow: 0px 10px 30px -5px rgba(221, 0, 255, 0.36);
+}
+
 .image {
   margin-bottom: 20px;
   max-width: 100%;
@@ -20,10 +24,6 @@
 .title {
   font-size: 20px;
   font-weight: 700;
-}
-
-.title:hover {
-  color: #db00c9;
 }
 
 .description {
