@@ -6,28 +6,3 @@
   letter-spacing: 1.75px;
   text-transform: uppercase;
 }
-
-.container {
-  display: flex;
-  justify-content: center; /* Centrar horizontalmente */
-  align-items: center; /* Centrar verticalmente */
-  width: 100%;
-}
-
-.swiper {
-  margin-top: 50px;
-  max-width: 50%;
-  max-height: 600px;
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-
-.swiper_slide {
-  background-position: center;
-  background-size: cover;
-}
-
-.swiper_slide img {
-  display: block;
-  width: 100%;
-}
