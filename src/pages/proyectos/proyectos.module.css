@@ -5,15 +5,6 @@
   margin-right: 10%;
 }
 
-.title {
-  margin-top: 200px;
-  text-align: center;
-  font-size: 40px;
-  font-weight: 700;
-  letter-spacing: 1.75px;
-  text-transform: uppercase;
-}
-
 .projects {
   margin-top: 37px;
   display: flex;
@@ -23,4 +14,13 @@
   justify-content: center;
   gap: 25px;
   width: 100%;
+}
+
+.title {
+  margin-top: 100px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
 }

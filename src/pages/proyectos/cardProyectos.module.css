@@ -1,15 +1,18 @@
 .container {
   display: flex;
   flex-direction: column;
-  border-radius: 10px;
-  background: linear-gradient(180deg, #131313 0%, #303030 100%);
+
+  background-color: #262626;
+  border: 2px solid #3a3a3a;
+  border-radius: 5px;
+
   padding: 20px;
   max-width: 400px;
   height: 600px;
 }
 
 .container:hover {
-  box-shadow: 0px 10px 30px -5px rgba(221, 0, 255, 0.36);
+  box-shadow: 0px 10px 30px -5px rgba(95, 95, 95, 0.36);
 }
 
 .image {
@@ -27,6 +30,7 @@
 }
 
 .description {
+  color: rgb(178, 178, 178);
   margin-top: 6px;
   font-size: 13px;
 }
@@ -65,16 +69,16 @@
 
 .link {
   text-decoration: none;
-  color: #ffffff;
+  color: rgb(178, 178, 178);
   font-size: 20px;
   font-weight: 500;
   border-radius: 5px;
   background: #30303000;
-  border: 1px solid #ffffff;
+  border: 1px solid rgb(178, 178, 178);
   padding: 5px 30px;
 }
 
 .link:hover {
-  background-color: #00ff0d;
+  background-color: #00fffb;
   color: #000000; /* Ajusta según sea necesario */
 }
