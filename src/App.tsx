@@ -1,6 +1,5 @@
 import styles from "./App.module.css";
 import Navbar from "./components/navbar/navbar";
-import { BrowserRouter as Router } from "react-router-dom";
 import About from "./pages/about/about";
 import Home from "./pages/home/home";
 import Proyectos from "./pages/proyectos/proyectos";
