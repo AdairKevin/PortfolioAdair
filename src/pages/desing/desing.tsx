@@ -1,8 +1,18 @@
 import styles from "./desing.module.css";
-import imagen1 from "../../assets/img/yo.png";
+import proyectos from "../../data/disenos.json";
+import { DiseñosCard } from "./desingCard";
 
 function Desing() {
-  return <div className={styles.container_slider}></div>;
+  return (
+    <div>
+      <h1 className={styles.titulo}>Trabajos de diseño</h1>
+      <div className={styles.wrapper}>
+        {proyectos.map((diseños, id) => {
+          return <DiseñosCard key={id} diseños={diseños} />;
+        })}
+      </div>
+    </div>
+  );
 }
 
 export default Desing;
