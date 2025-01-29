@@ -7,7 +7,7 @@
 
 .card {
   width: 90px;
-  border-radius: 10px;
+  border-radius: 5px;
   background-size: cover;
   background-position: center;
   cursor: pointer;
@@ -16,7 +16,7 @@
   display: flex;
   align-items: flex-end;
   transition: 0.6s cubic-bezier(0.28, -0.03, 0, 0.99);
-  box-shadow: 0px 10px 30px -5px rgba(95, 95, 95, 0.8);
+  box-shadow: 0px 10px 30px -5px rgba(46, 46, 46, 0.8);
 }
 
 .card > .row {
@@ -26,7 +26,7 @@
 }
 
 .card > .row > .icon {
-  background: #223;
+  background: rgb(70, 70, 70);
   color: white;
   border-radius: 50%;
   width: 50px;
@@ -50,7 +50,7 @@
 }
 
 .description p {
-  color: #b0b0ba;
+  color: #ffffff;
   padding-top: 5px;
 }
 
