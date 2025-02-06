@@ -13,6 +13,15 @@ function About() {
   return (
     <div className={styles.container}>
       <div className={styles.container__left}>
+        <div className={styles.about}>
+          <p>
+            <h1>Sobre mí</h1>
+            <br />
+            Hola, soy [Tu Nombre], un [Tu Profesión] con pasión por [Tu Pasión].
+            Tengo experiencia en [Tu Experiencia] y disfruto trabajar en
+            proyectos que involucren [Tus Intereses].
+          </p>
+        </div>
         <div className={styles.skills}>
           <div className={styles.skill}>
             <FaHtml5 size="2em" className={styles.i} />

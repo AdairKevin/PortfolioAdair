@@ -3,7 +3,7 @@ import style from "./forfun.module.css";
 function Forfun() {
   return (
     <div>
-      <h1>ForFun</h1>
+      <h1 className={style.titulo}>ForFun</h1>
       <div className={style.container}>
         <div className={style.grid}>
           <div className={style.item1}>1</div>

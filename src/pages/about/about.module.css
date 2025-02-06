@@ -8,7 +8,25 @@
   justify-content: center;
 }
 
+.about {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.about h1 {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+}
+
 .skills {
+  margin: 0 auto;
+  justify-content: center;
   display: flex;
   gap: 25px;
 }

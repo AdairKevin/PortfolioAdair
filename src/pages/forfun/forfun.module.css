@@ -1,6 +1,10 @@
-h1 {
-  text-align: center;
+.titulo {
   margin-top: 100px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
 }
 
 .container {
