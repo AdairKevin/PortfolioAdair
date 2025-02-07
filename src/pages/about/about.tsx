@@ -17,9 +17,9 @@ function About() {
           <p>
             <h1>Sobre mí</h1>
             <br />
-            Hola, soy [Tu Nombre], un [Tu Profesión] con pasión por [Tu Pasión].
-            Tengo experiencia en [Tu Experiencia] y disfruto trabajar en
-            proyectos que involucren [Tus Intereses].
+            Hola, soy Adair Kevin, TSU en Sistemas Informaticos con pasión por
+            el desarrollo Front'End, UX/UI. Tengo experiencia en Desarrollo
+            FrontEnd.
           </p>
         </div>
         <div className={styles.skills}>
