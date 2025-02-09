@@ -18,7 +18,7 @@ function About() {
             <h1>Sobre mí</h1>
             <br />
             Hola, soy Adair Kevin, TSU en Sistemas Informaticos con pasión por
-            el desarrollo Front'End, UX/UI. Tengo experiencia en Desarrollo
+            el desarrollo Front-End, UX/UI. Tengo experiencia en Desarrollo
             FrontEnd.
           </p>
         </div>
