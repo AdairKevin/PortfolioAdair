@@ -22,6 +22,10 @@ function About() {
             FrontEnd.
           </p>
         </div>
+
+        <div>
+          <p>Estas son mis habilidades</p>
+        </div>
         <div className={styles.skills}>
           <div className={styles.skill}>
             <FaHtml5 size="2em" className={styles.i} />
