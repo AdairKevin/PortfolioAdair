@@ -24,7 +24,7 @@ function About() {
         </div>
 
         <div>
-          <p>Estas son mis habilidades</p>
+          <p>Estas son mis skills</p>
         </div>
         <div className={styles.skills}>
           <div className={styles.skill}>
