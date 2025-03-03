@@ -82,3 +82,55 @@
   background-color: #00fffb;
   color: #000000; /* Ajusta según sea necesario */
 }
+
+@media (max-width: 858px) {
+  .container {
+    padding: 10px;
+    max-width: 500px;
+    height: 350px;
+  }
+
+  .image {
+    margin-bottom: 10px;
+    max-width: 100%;
+    max-height: 70%;
+  }
+
+  .title {
+    font-size: 15px;
+    font-weight: 700;
+  }
+
+  .description {
+    margin-top: 6px;
+    font-size: 10px;
+  }
+
+  .skills {
+    margin-top: 10px;
+    gap: 5px;
+  }
+
+  .skill {
+    font-size: 10px;
+    padding: 2px 3px;
+  }
+
+  .links {
+    width: 100%;
+    margin-top: 10px;
+    gap: 10px;
+  }
+
+  .link i {
+    margin-right: 5px;
+    font-size: 12px;
+    justify-content: center;
+  }
+
+  .link {
+    font-size: 12px;
+    font-weight: 500;
+    padding: 5px 10px;
+  }
+}

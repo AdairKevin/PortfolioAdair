@@ -53,3 +53,25 @@
 .projectDescription {
   color: #d7d7d7;
 }
+
+@media (max-width: 858px) {
+  .description {
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+  }
+
+  .projectsGrid {
+    gap: 5px;
+    font-size: 12px;
+  }
+
+  .projectCard {
+    padding: 5px;
+    min-height: 50px;
+  }
+
+  .projectDescription {
+    display: none;
+  }
+}

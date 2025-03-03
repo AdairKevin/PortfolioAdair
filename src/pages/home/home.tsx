@@ -20,13 +20,14 @@ function Home() {
             TSU en sistemas informaticos, Animador Digital y entusista UX/UI
             <span> +1 año de experiencia </span>
             en desarrollo <span> FrontEnd </span> y{" "}
-            <span> Diseño Grafico </span>, del Estado de México. Me motiva
-            enfrentar desafíos que pongan a prueba mis habilidades mientras
-            contribuyo al crecimiento de los proyectos.
+            <span> Diseño Grafico </span>, del Estado de México.
           </p>
 
           <div className={styles.botones}>
-            <button type="button" className={`${styles.acciones} ${styles.primeraAccion}`}>
+            <button
+              type="button"
+              className={`${styles.acciones} ${styles.primeraAccion}`}
+            >
               Leer más
               <i id="flecha" className={"bi bi-arrow-right"}></i>
             </button>

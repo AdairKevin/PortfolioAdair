@@ -24,3 +24,25 @@
   letter-spacing: 1.75px;
   text-transform: uppercase;
 }
+
+@media (max-width: 858px) {
+  .container {
+    margin-top: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .projects {
+    margin-top: 20px;
+  }
+
+  .container h2 {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+
+  .title {
+    margin-top: 40px;
+    font-size: 18px;
+  }
+}

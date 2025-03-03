@@ -84,11 +84,11 @@
 
   .ul {
     position: fixed;
-    width: 100%;
+    width: 100dvw;
     height: auto;
     padding: 0;
     background-color: #000000;
-    top: 75px;
+    top: 74px;
     left: -200%;
     text-align: left;
     transition: all 0.2s ease;

@@ -8,13 +8,28 @@ interface git {
   language: string;
 }
 
-function proyetosGit() {
-  const [projects, setProjects] = useState([]);
+function ProyetosGit() {
+  const [projects, setProjects] = useState<git[]>([]);
 
   useEffect(() => {
-    fetch("https://api.github.com/users/AdairKevin/repos")
+    fetch("https://api.github.com/users/AdairKevin/repos", {
+      headers: {
+        Authorization: ``,
+      },
+    })
       .then((response) => response.json())
-      .then((data) => setProjects(data));
+      .then((data: git[]) => {
+        if (Array.isArray(data)) {
+          setProjects(data);
+        } else {
+          console.error("La API no devolvió un array:", data);
+          setProjects([]);
+        }
+      })
+      .catch((error) => {
+        console.error("Error al obtener proyectos:", error);
+        setProjects([]);
+      });
   }, []);
 
   return (
@@ -54,4 +69,4 @@ function proyetosGit() {
   );
 }
 
-export default proyetosGit;
+export default ProyetosGit;
