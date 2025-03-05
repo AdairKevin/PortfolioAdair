@@ -14,7 +14,7 @@ function ProyetosGit() {
   useEffect(() => {
     fetch("https://api.github.com/users/AdairKevin/repos", {
       headers: {
-        Authorization: `hola`,
+        Authorization: ``,
       },
     })
       .then((response) => response.json())
