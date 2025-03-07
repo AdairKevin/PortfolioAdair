@@ -8,13 +8,15 @@ interface git {
   language: string;
 }
 
+const GitHubToken = import.meta.env.REACT_APP_GITHUB_TOKEN;
+
 function ProyetosGit() {
   const [projects, setProjects] = useState<git[]>([]);
 
   useEffect(() => {
     fetch("https://api.github.com/users/AdairKevin/repos", {
       headers: {
-        Authorization: ``,
+        Authorization: GitHubToken ? `token ${GitHubToken}` : "",
       },
     })
       .then((response) => response.json())
